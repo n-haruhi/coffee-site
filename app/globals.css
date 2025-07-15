@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4eddf; /* coffee-cream 固定 */
+  --foreground: #5a3d21; /* coffee-dark 固定 */
 }
 
 @theme inline {
@@ -12,12 +12,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ダークモード設定を削除 */
 
 body {
   background: var(--background);
